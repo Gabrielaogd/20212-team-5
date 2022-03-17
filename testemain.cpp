@@ -261,7 +261,7 @@ int main(int argc, char **argv){
             for (int i=0; i<8; i++){
                 for (int j=0; j<8; j++){
                     if(MAPA[i][j]==0){ //Se for 0, desenha a peça laranha
-                        al_draw_bitmap(dlaranja,j*q,i*q,0);
+                        al_draw_bitmap(docesimpleslaranja,j*q,i*q,0);
                         
                     }
                     if(MAPA[i][j]==1){ //Se for 1, desenha a peça roxa;
